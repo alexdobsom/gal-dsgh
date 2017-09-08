@@ -1,5 +1,5 @@
 # gal-dsgh
-gal-dsgh -website
+gal-dsgh - website
 
 Need to download ViewJS for previewing files: http://viewerjs.org/instructions/
 
