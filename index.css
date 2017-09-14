@@ -36,8 +36,10 @@ body {
 }
 
 .topbar {
+    /*
     background-color: white;
     border-bottom: 1px solid lightgray;
+*/
 }
 
 ul.navigation {
@@ -51,7 +53,9 @@ ul.navigation li {
     list-style: none;
     margin-right: 30px;
     font-size: 25px;
-    color: #42668c;
+    color: white;
+    text-shadow: 3px 4px 15px rgb(41, 39, 39);
+    font-weight: 600;
 }
 
 ul.navigation li img {
@@ -123,7 +127,7 @@ footer p {
 #description h1 {
     margin-top: 20px;
     font-size: 1.26rem;
-    color: #6f6f6f;
+    color: #5e5e5e;
 }
 
 p#createdby a {
