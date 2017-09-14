@@ -192,18 +192,32 @@ p#createdby a {
         text-align: center;
     }
     .headpicture {
-        display: none;
+        /*        display: none;*/
+        background: url('');
+        height: auto;
+        background-color: #888888;
+        color: darkgray;
+        text-shadow: none;
     }
     .headpicture_mobile {
         display: block;
-        height: 30vh;
+        height: 26vh;
         width: 100%;
         background: url('assets/landscape.jpg');
         background-repeat: no-repeat;
         /*    background-attachment: fixed;*/
         background-position: center;
         background-size: cover;
-        border-bottom: 1px solid lightgray;
+        border-bottom: none;
+    }
+    #description {
+        text-align: center;
+        font-size: 20px;
+    }
+    #description h1 {
+        margin-top: 20px;
+        font-size: 1.1rem;
+        color: rgb(94, 94, 94);
     }
 }
 
@@ -220,7 +234,7 @@ p#createdby a {
 @media (max-width: 1200px) {
     ul#fbbutton {
         padding: 0 0 15px 0;
-        float: none;
+        float: right;
         margin: 0 auto;
         text-align: center;
     }
