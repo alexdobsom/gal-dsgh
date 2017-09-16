@@ -84,8 +84,17 @@ h2.display-6 {
 }
 
 .basetop {
-    background-color: #1a762f;
+    background-color: #00366f;
     height: 10vh;
+}
+
+#gotobtn {
+    height: 50px;
+}
+
+#gotobtndiv {
+    margin-top: 150px;
+    text-align: center;
 }
 
 .maincontent {
@@ -99,7 +108,7 @@ h2.display-6 {
     margin-bottom: 0px;
     border-radius: 0;
     color: white;
-    background-image: -webkit-linear-gradient(top, #1a762f 10vh, rgba(26, 118, 47, 0) 90%), url('assets/landscape.jpg');
+    background-image: -webkit-linear-gradient(top, #00366f 10vh, rgba(26, 118, 47, 0) 80%), url('assets/landscape.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
