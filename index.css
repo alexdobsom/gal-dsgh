@@ -349,6 +349,7 @@ p#createdby a {
     footer {
         text-align: center;
     }
+    .left,
     .right {
         float: none;
     }
