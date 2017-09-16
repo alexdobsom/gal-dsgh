@@ -1,6 +1,15 @@
+body {
+    background: -webkit-linear-gradient(top, #808080 0%, rgba(143, 143, 143, 0) 40%);
+    background-attachment: fixed;
+}
+
+hr {
+    margin: 20px;
+}
+
 #facebk {
-    width: 333px;
-    height: 555px;
+    width: 300px;
+    height: 500px;
     position: absolute;
     top: 33px;
     margin: 0 auto;
@@ -32,11 +41,28 @@
     justify-content: center !important;
 }
 
+.basetop {
+    background-color: #1a762f;
+    height: 10vh;
+}
+
+.maincontent {
+    margin-top: -45vh;
+}
+
 .jumbotron {
+    /*    background-color: #28a745;*/
+    padding: 0px 0px 65vh 0px;
+    /*    height: 100vh;*/
     margin-bottom: 0px;
-    background: #007bff;
-    padding: 30px 30px 45px 30px;
     border-radius: 0;
+    color: white;
+    background-image: -webkit-linear-gradient(top, #1a762f 10vh, rgba(26, 118, 47, 0) 70%), url('assets/landscape.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 2px 30px #343434;
 }
 
 #list-example {
@@ -76,7 +102,7 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #e0e0e0;
     position: relative;
 }
 
@@ -125,17 +151,6 @@ footer:after {
     clear: both;
 }
 
-.headpicture {
-    height: 59vh;
-    width: 100%;
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0) 45%), url('assets/landscape.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    background-size: cover;
-    /*    border-bottom: 1px solid lightgray;*/
-}
-
 #logo img {
     height: 50px;
     margin-bottom: 20px;
@@ -143,10 +158,6 @@ footer:after {
 
 .list-group {
     /*    position: fixed;*/
-}
-
-.maincontent {
-    margin-top: 0px;
 }
 
 .text-box-area {
