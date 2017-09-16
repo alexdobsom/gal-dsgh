@@ -1,3 +1,15 @@
+.center-facebook {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.modal-content {
+    height: -webkit-fill-available;
+    max-width: 532px;
+    width: 100%;
+}
+
 body {
     background: -webkit-linear-gradient(top, #808080 0%, rgba(143, 143, 143, 0) 40%);
     background-attachment: fixed;
@@ -129,8 +141,10 @@ ul.navigation li {
     font-weight: 600;
 }
 
-ul.navigation li img {
+.jumbotron img {
+    margin-top: 10px;
     width: 125px;
+    margin-bottom: 10px;
 }
 
 ul#fbbutton {
@@ -236,6 +250,9 @@ p#createdby a {
 }
 
 @media (max-width: 576px) {
+    .basetop {
+        display: none;
+    }
     ul.navigation li {
         display: block;
         font-size: 20px;
