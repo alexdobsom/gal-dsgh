@@ -1,5 +1,50 @@
-.row {
-    /*    margin: 0;*/
+#facebk {
+    width: 333px;
+    height: 555px;
+    position: absolute;
+    top: 33px;
+    margin: 0 auto;
+    z-index: 33333333;
+    background-color: aqua;
+}
+
+#inchide {
+    background-color: black;
+    color: white;
+}
+
+.parent-center {
+    text-align: center;
+}
+
+.left-button {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.right-button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.center {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background: #007bff;
+    padding: 30px 30px 45px 30px;
+    border-radius: 0;
+}
+
+#list-example {
+    padding-top: 15px;
+}
+
+.capitol .row {
+    padding: 0 10px;
 }
 
 .left {
@@ -81,14 +126,14 @@ footer:after {
 }
 
 .headpicture {
-    height: 50vh;
+    height: 59vh;
     width: 100%;
-    background: url('assets/landscape.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0) 45%), url('assets/landscape.jpg');
     background-repeat: no-repeat;
-    /*    background-attachment: fixed;*/
-    background-position: center;
+    background-attachment: fixed;
+    background-position: bottom;
     background-size: cover;
-    border-bottom: 1px solid lightgray;
+    /*    border-bottom: 1px solid lightgray;*/
 }
 
 #logo img {
@@ -101,11 +146,11 @@ footer:after {
 }
 
 .maincontent {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .text-box-area {
-    margin: 0;
+    margin-top: 15px;
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -127,22 +172,26 @@ footer p {
 #description h1 {
     margin-top: 20px;
     font-size: 1.26rem;
-    color: #5e5e5e;
+    color: white;
 }
 
 p#createdby a {
     color: white;
 }
 
+.exteriorbox {
+    padding: 5px;
+}
+
 .cardbox {
     padding: 20px;
     border: 1px solid lightgray;
     border-radius: 5px;
-    margin-bottom: 5px;
+    height: 100%;
 }
 
 .capitol {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
     border-bottom: 1px solid #f1f1f1;
 }
@@ -157,11 +206,21 @@ p#createdby a {
 }
 
 @media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        justify-content: center;
+    }
     .text-box-area {
         margin: 20px 15px;
     }
     #list-example {
         text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    ul.navigation li {
+        float: right;
     }
 }
 
@@ -218,6 +277,7 @@ p#createdby a {
         margin-top: 20px;
         font-size: 1.1rem;
         color: rgb(94, 94, 94);
+        color: white;
     }
 }
 
@@ -234,7 +294,6 @@ p#createdby a {
 @media (max-width: 1200px) {
     ul#fbbutton {
         padding: 0 0 15px 0;
-        float: right;
         margin: 0 auto;
         text-align: center;
     }
