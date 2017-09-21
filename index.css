@@ -183,6 +183,16 @@ body {
 */
 }
 
+p.file {
+    color: darkgray;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.cardbox h6 {
+    margin-bottom: 5px;
+}
+
 ul.navigation {
     float: left;
     margin: 0px;
@@ -284,10 +294,6 @@ p#createdby a {
 .cardbox .row {
     display: flex;
     align-items: center;
-}
-
-.cardbox .row h6 {
-    margin: 0;
 }
 
 .capitol {
@@ -406,7 +412,7 @@ p#createdby a {
     .right {
         float: none;
     }
-    .cardbox .row h6 {
+    .card-text {
         margin-bottom: 20px;
     }
 }
