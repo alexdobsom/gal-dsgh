@@ -78,9 +78,9 @@ h2.display-6 {
     border-bottom-right-radius: 30px;
 }
 
-.center {
+.end {
     display: flex !important;
-    justify-content: center !important;
+    justify-content: flex-end!important;
 }
 
 .basetop {
@@ -95,6 +95,15 @@ h2.display-6 {
 #gotobtndiv {
     margin-top: 150px;
     text-align: center;
+}
+
+#gotobtn {
+    opacity: 0.5;
+    transition: opacity ease 0.5s;
+}
+
+#gotobtn:hover {
+    opacity: 1;
 }
 
 .maincontent {
@@ -114,6 +123,14 @@ h2.display-6 {
     background-position: center;
     background-size: cover;
     /*    text-shadow: 1px 2px 30px #343434;*/
+}
+
+.jumbotron .lead {
+    line-height: 1.15em;
+}
+
+.jumbotron .display-5 {
+    line-height: 1.1em;
 }
 
 #list-example {
@@ -181,7 +198,7 @@ ul.navigation li {
 }
 
 .jumbotron img {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 125px;
     margin-bottom: 10px;
 }
@@ -251,6 +268,7 @@ p#createdby a {
 
 .exteriorbox {
     padding: 5px;
+    width: 100%;
 }
 
 .cardbox {
@@ -261,14 +279,19 @@ p#createdby a {
     background-color: white;
 }
 
+.cardbox row {
+    display: flex;
+    align-items: baseline;
+}
+
 .capitol {
     margin-bottom: 50px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     border-bottom: 1px solid #f1f1f1;
 }
 
 .capitol h6 {
-    /*    text-transform: uppercase;*/
+    font-weight: 400;
 }
 
 .capitol p {
@@ -297,9 +320,19 @@ p#createdby a {
     ul.navigation li {
         float: right;
     }
+    .end {
+        display: flex !important;
+        justify-content: center !important;
+    }
 }
 
 @media (max-width: 576px) {
+    .jumbotron {
+        padding: 0 0 10vh 0;
+    }
+    #gotobtndiv {
+        display: none;
+    }
     .basetop {
         display: none;
     }
