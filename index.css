@@ -279,7 +279,7 @@ p#createdby a {
 }
 
 .exteriorbox {
-    padding: 5px;
+    padding: 5px 15px;
     width: 100%;
 }
 
@@ -293,7 +293,7 @@ p#createdby a {
 
 .cardbox .row {
     display: flex;
-    align-items: center;
+    /*    align-items: center;*/
 }
 
 .capitol {
@@ -413,6 +413,9 @@ p#createdby a {
         float: none;
     }
     .card-text {
+        margin-bottom: 20px;
+    }
+    p.file {
         margin-bottom: 20px;
     }
 }
