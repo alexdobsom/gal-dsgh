@@ -70,6 +70,10 @@ h2.display-6 {
     font-weight: 100;
 }
 
+.jumbotron .display-4 {
+    font-size: 2.75em;
+}
+
 .parent-center {
     text-align: center;
 }
@@ -137,6 +141,7 @@ h2.display-6 {
 
 .jumbotron .display-5 {
     line-height: 1.1em;
+    font-size: 1.5em;
 }
 
 #list-example {
