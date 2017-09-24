@@ -396,6 +396,9 @@ p#createdby a {
         color: rgb(94, 94, 94);
         color: white;
     }
+    .maincontent {
+        margin-top: 1vh;
+    }
 }
 
 @media (max-width: 991px) {
