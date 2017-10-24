@@ -17,3 +17,13 @@ sr.reveal('.maincontent', {
     distance: '2px',
     mobile: false //no animation for mobile devices
 });
+
+
+// pulse down arrow
+setInterval(function(){
+ $("#gotobtn").css("opacity", "0.7");
+ }, 850)
+
+ setInterval(function(){
+  $("#gotobtn").css("opacity", "0.35");
+}, 1700)
