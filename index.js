@@ -22,8 +22,8 @@ sr.reveal('.maincontent', {
 // pulse down arrow
 setInterval(function(){
  $("#gotobtn").css("opacity", "0.7");
- }, 850)
+ }, 600)
 
  setInterval(function(){
   $("#gotobtn").css("opacity", "0.35");
-}, 1700)
+}, 1200)
