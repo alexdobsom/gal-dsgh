@@ -195,6 +195,7 @@ h2.display-6 {
 #list-example {
   padding-top: 15px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .list-group-item {
@@ -516,7 +517,7 @@ footer a {
   }
   #list-example {
     text-align: center;
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
   #external-links, #repeat_ext_links {
     padding: 10px 0;
